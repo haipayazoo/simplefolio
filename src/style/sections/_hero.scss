@@ -3,11 +3,12 @@
   height: 100vh;
   display: flex;
   align-items: center;
+  justify-content: center;
   border-bottom: 0px;
-  background: $white-color;
+  background: $black;
   font-weight: 400;
-  color: $dark-blue-text;
-  padding: 0rem 5.6rem;
+  color: $gold-header;
+  padding: 0rem 0rem;
   margin-bottom: 0;
   position: fixed;
   top: 0;
@@ -15,16 +16,23 @@
   bottom: 0;
   right: 0;
   z-index: -1;
+  
 
   @include respond(phone) {
     padding: 0rem $default-font-size;
   }
 
+  #world {
+    position: absolute;
+    
+  }
+
   .hero-title {
+    position: absolute;
     font-size: 5.6rem;
     font-weight: 700;
     margin-bottom: 3.2rem;
-    text-align: left;
+    text-align: center;
 
     @include respond(tab-land) {
       font-size: 4rem;
@@ -43,6 +51,7 @@
   }
 
   .hero-cta {
+    position: absolute;
     display: flex;
 
     @include respond(tab-port) {
@@ -51,6 +60,7 @@
 
     & a {
       font-size: 2.4rem;
+      margin-top: 115%;
 
       @include respond(phone) {
         font-size: 2rem;
