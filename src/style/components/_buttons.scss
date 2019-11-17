@@ -37,6 +37,7 @@
     $btn-primary 0%,
     $btn-secondary 100%
   );
+
   border-image-slice: 1;
   // Responsive Button hero style
   @include respond(phone) {
@@ -82,6 +83,28 @@
 
   &:hover {
     color: $secondary-color;
+    text-decoration: none;
+
+    &::after {
+      width: 100%;
+    }
+  }
+}
+
+.cta-btn--project {
+  color: #16222A;
+  border: 2px solid #3A6073;
+
+  &::after {
+    background: linear-gradient(
+    135deg,
+    #16222A 0%,
+    #3A6073 100%
+  );
+  }
+
+  &:hover {
+    color: $white-color;
     text-decoration: none;
 
     &::after {
