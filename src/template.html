@@ -11,252 +11,242 @@
 -->
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />
 
-    <!-- Put here your site title -->
-    <title>Cameron Mathos | Developer</title>
-    <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
-    <meta 
-      name="keywords" 
-      content="haipayazoo, cameron mathos, web developer, javascript, react, front-end, back-end, full stack" 
-    />
-    <!-- Improve your SEO by adding a small descrption of you -->
-    <meta name="description" content="Cameron Mathos | Developer" />
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />
 
-    <!-- Required librarys -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script>
-      ScrollReveal({ reset: false });
-    </script>
+  <!-- Put here your site title -->
+  <title>Cameron Mathos | Developer</title>
+  <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
+  <meta name="keywords"
+    content="haipayazoo, cameron mathos, web developer, javascript, react, front-end, back-end, full stack" />
+  <!-- Improve your SEO by adding a small descrption of you -->
+  <meta name="description" content="Cameron Mathos | Developer" />
 
-    <!-- Remove this script once you setup your custom portfolio -->
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
-  </head>
+  <!-- Required librarys -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script>
+    ScrollReveal({
+      reset: false
+    });
+  </script>
 
-  <!-- Follow the HTML instructions to create your stunning portfolio website -->
-  <body>
-    <div id="top"></div>
+  <!-- Remove this script once you setup your custom portfolio -->
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+</head>
 
-    <!-- **** Hero Section **** -->
-    <div id="hero" class="jumbotron">
-        <canvas id="world"></canvas>
-        <h1 class="hero-title" class="load-hidden">
+<!-- Follow the HTML instructions to create your stunning portfolio website -->
 
-          Cameron Mathos
-          <br />
-          The one you didn't know you're waiting for
-        </h1>
-        <p class="hero-cta" class="load-hidden">
-          <a class="cta-btn cta-btn--hero" href="#about">Know more</a>
+<body>
+  <div id="top"></div>
+
+  <!-- **** Hero Section **** -->
+  <div id="hero" class="jumbotron">
+    <canvas id="world"></canvas>
+    <h1 class="hero-title" class="load-hidden">
+
+      Cameron Mathos
+      <br />
+      The one you didn't know you're waiting for
+    </h1>
+    <p class="hero-cta" class="load-hidden">
+      <a class="cta-btn cta-btn--hero" href="#about">Know more</a>
+    </p>
+
+  </div>
+  <!-- /END Hero Section -->
+
+  <!-- **** About Section **** -->
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title">
+        No ordinary guy
+      </h2>
+      <div class="row about-wrapper">
+        <div id="profile" class="col-md-6 col-sm-12">
+          <div class="about-wrapper__image">
+            <img data-tilt class="img-fluid rounded shadow-lg" height="auto" width="300px" src="./assets/profile.png"
+              alt="Profile Image" />
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <div class="about-wrapper__info">
+            <p class="about-wrapper__info-text">
+              I specialize in software design and full-stack development. I have a
+              blazing passion for working with design and a fascination for seeing
+              what makes things creatively operate. My quest is to continually up
+              the ante professionally as well as personally.
+            </p>
+            <span class="d-flex mt-3">
+              <a target="_blank" class="cta-btn cta-btn--resume" href="https://tinyurl.com/y3jlz6zx">
+                View Resume
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /END About Section -->
+
+  <!-- **** Projects Section **** -->
+  <section id="projects">
+    <div class="container">
+      <div class="project-wrapper">
+        <h2 class="section-title dark-blue-text">
+          Projects
+        </h2>
+
+        <!-- Each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Smart Brain</h3>
+              <div>
+                <p class="mb-4">
+                  A facial recognition application that uses a trained,
+                  machine learning AI to detect images that the user
+                  submits with a URL. Smart Brain allows users to register
+                  and sign into their account, while the back-end database keeps
+                  track of user credentials.
+                </p>
+              </div>
+              <a target="_blank" class="cta-btn cta-btn--project" href="https://haipa-smartbrain.herokuapp.com/">
+                See Live
+              </a>
+              <a target="_blank" class="cta-btn text-color-main" href="https://github.com/haipayazoo/SmartBrain">
+                Source Code
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image">
+              <a href="https://haipa-smartbrain.herokuapp.com/" target="_blank">
+                <div data-tilt class="thumbnail rounded">
+                  <img class="img-fluid" src="./assets/smartbrain.png" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- /END Project -->
+
+        <!-- Each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Crown Clothing</h3>
+              <div>
+                <p class="mb-4">
+                  An e-commerce website that allows users to register an account and sign-in,
+                  with Google user-authentication included. The user is able to store items
+                  into their cart, go to checkout, specify the quantity of each item, delete
+                  items from the cart.
+                </p>
+              </div>
+              <a target="_blank" class="cta-btn cta-btn--project" href="https://haipa-crwn-clothing.herokuapp.com/">
+                See Live
+              </a>
+              <a target="_blank" class="cta-btn text-color-main" href="https://github.com/haipayazoo/Crown-Clothing">
+                Source Code
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image">
+              <a href="https://haipa-crwn-clothing.herokuapp.com/" target="_blank">
+                <div data-tilt class="thumbnail rounded">
+                  <img class="img-fluid" src="./assets/robofriends.png" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- /END Project -->
+
+        <!-- Each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">FitMe Up</h3>
+              <div>
+                <p class="mb-4">
+                  An Android mobile, fitness application. Users are able to
+                  create a schedule for their workout regimen and be notified
+                  of upcoming workout days. The application also provides an
+                  online forum for user discussion as well as a map of nearby
+                  gyms.
+                </p>
+              </div>
+              <a target="_blank" class="cta-btn text-color-main only" href="https://github.com/haipayazoo/FitMe_Up">
+                Source Code
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image">
+              <a href="https://github.com/haipayazoo/FitMe_Up" target="_blank">
+                <div data-tilt class="thumbnail rounded">
+                  <img class="img-fluid" src="./assets/fitmeup.png" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- /END Project -->
+      </div>
+    </div>
+  </section>
+  <!-- /END Projects Section -->
+
+  <!-- **** Contact Section **** -->
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">
+        Let's join forces!
+      </h2>
+      <div class="contact-wrapper">
+        <p class="contact-wrapper__text">
+          Shoot me an email here
         </p>
+        <a target="_blank" class="cta-btn cta-btn--resume" href="mailto:haipayazoo@hotmail.com">
+          Click Here!
+        </a>
+      </div>
+    </div>
+  </section>
+  <!-- /END Contact Section -->
+
+  <!-- **** Footer Section **** -->
+  <footer class="footer navbar-static-bottom">
+    <div class="container">
+      <a href="#top" class="back-to-top">
+        <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+      </a>
+      <div class="social-links">
+        <a href="https://twitter.com/HaipaYazoo" target="_blank">
+          <i class="fa fa-twitter fa-inverse"></i>
+        </a>
+        <a href="https://medium.com/@haipayazoo" target="_blank">
+          <i class="fa fa-medium fa-inverse"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/cameron-mathos-393266167/" target="_blank">
+          <i class="fa fa-linkedin fa-inverse"></i>
+        </a>
+        <a href="https://github.com/haipayazoo" target="_blank">
+          <i class="fa fa-github fa-inverse"></i>
+        </a>
+      </div>
+
+      <hr />
 
     </div>
-    <!-- /END Hero Section -->
+  </footer>
+  <!-- /END Footer Section -->
+</body>
 
-    <!-- **** About Section **** -->
-    <section id="about">
-      <div class="container">
-        <h2 class="section-title">
-          No ordinary guy
-        </h2>
-        <div class="row about-wrapper">
-          <div id="profile" class="col-md-6 col-sm-12">
-            <div class="about-wrapper__image">
-              <img
-                data-tilt
-                class="img-fluid rounded shadow-lg"
-                height="auto"
-                width="300px"
-                src="./assets/profile.png"
-                alt="Profile Image"
-              />
-            </div>
-          </div>
-          <div class="col-md-6 col-sm-12">
-            <div class="about-wrapper__info">
-              <p class="about-wrapper__info-text">
-                I specialize in software design and full-stack development. I have a 
-                blazing passion for working with design and a fascination for seeing
-                what makes things creatively operate. My quest is to continually up 
-                the ante professionally as well as personally.
-              </p>
-              <span class="d-flex mt-3">
-                <a target="_blank" class="cta-btn cta-btn--resume" href="https://tinyurl.com/y3jlz6zx">
-                  View Resume
-                </a>
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- /END About Section -->
-
-    <!-- **** Projects Section **** -->
-    <section id="projects">
-      <div class="container">
-        <div class="project-wrapper">
-          <h2 class="section-title dark-blue-text">
-            Projects
-          </h2>
-
-          <!-- Each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Smart Brain</h3>
-                <div>
-                  <p class="mb-4">
-                    A facial recognition application that uses a trained,
-                    machine learning AI to detect images that the user
-                    submits with a URL. Smart Brain allows users to register
-                    and sign into their account, while the back-end database keeps 
-                    track of user credentials.
-                  </p>
-                </div>
-                <a target="_blank" class="cta-btn cta-btn--project" href="https://haipa-smartbrain.herokuapp.com/">
-                  See Live
-                </a>
-                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/haipayazoo/SmartBrain">
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <a href="https://haipa-smartbrain.herokuapp.com/" target="_blank">
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/smartbrain.png" />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- /END Project -->
-
-          <!-- Each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Robo Friends</h3>
-                <div>
-                  <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
-                  </p>
-                </div>
-                <a target="_blank" class="cta-btn cta-btn--project" href="https://haipa-robofriends.herokuapp.com/">
-                  See Live
-                </a>
-                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/haipayazoo/Robo-Friends">
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <a href="https://haipa-robofriends.herokuapp.com/" target="_blank">
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/robofriends.png" />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- /END Project -->
-
-          <!-- Each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">FitMe Up</h3>
-                <div>
-                  <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
-                  </p>
-                </div>
-                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/haipayazoo/FitMe_Up">
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <a href="https://github.com/haipayazoo/FitMe_Up" target="_blank">
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/fitmeup.png" />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- /END Project -->
-        </div>
-      </div>
-    </section>
-    <!-- /END Projects Section -->
-
-    <!-- **** Contact Section **** -->
-    <section id="contact">
-      <div class="container">
-        <h2 class="section-title">
-          Let's join forces!
-        </h2>
-        <div class="contact-wrapper">
-          <p class="contact-wrapper__text">
-            Shoot me an email here
-          </p>
-          <a
-            target="_blank"
-            class="cta-btn cta-btn--resume"
-            href="mailto:haipayazoo@hotmail.com"
-            ></a
-          >
-        </div>
-      </div>
-    </section>
-    <!-- /END Contact Section -->
-
-    <!-- **** Footer Section **** -->
-    <footer class="footer navbar-static-bottom">
-      <div class="container">
-        <a href="#top" class="back-to-top">
-          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
-        </a>
-        <div class="social-links">
-          <a href="https://twitter.com/HaipaYazoo" target="_blank">
-            <i class="fa fa-twitter fa-inverse"></i>
-          </a>
-          <a href="https://medium.com/@haipayazoo" target="_blank">
-            <i class="fa fa-medium fa-inverse"></i>
-          </a>
-          <a href="https://www.linkedin.com/in/cameron-mathos-393266167/" target="_blank">
-            <i class="fa fa-linkedin fa-inverse"></i>
-          </a>
-          <a href="https://github.com/haipayazoo" target="_blank">
-            <i class="fa fa-github fa-inverse"></i>
-          </a>
-        </div>
-
-        <hr />
-
-      </div>
-    </footer>
-    <!-- /END Footer Section -->
-  </body>
 </html>
